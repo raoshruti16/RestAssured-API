@@ -1,0 +1,662 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test created user",
+        "description": "",
+        "id": "test-the-create-user;test-created-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 2776562099,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 1392833700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I create a new user Shruti and Engineer and verify its status code and other details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shruti",
+                  "offset": 20
+                },
+                {
+                  "val": "Engineer",
+                  "offset": 31
+                }
+              ],
+              "location": "CreateUser.I_create_a_new_user_and_verify_its_status_code(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test created user",
+        "description": "",
+        "id": "test-the-create-user;test-created-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 656138801,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 771351099,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I create a new user Shreya002 and Student02 and verify its status code and other details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Shreya002",
+                  "offset": 20
+                },
+                {
+                  "val": "Student02",
+                  "offset": 34
+                }
+              ],
+              "location": "CreateUser.I_create_a_new_user_and_verify_its_status_code(String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Test the Create User",
+    "description": "",
+    "id": "test-the-create-user",
+    "keyword": "Feature",
+    "uri": "createUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test updated user",
+        "description": "",
+        "id": "test-the-update-user;test-updated-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 607315601,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 743039500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I delete a given user 2 and verify its status code and other details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 22
+                }
+              ],
+              "location": "DeleteUser.I_delete_a_given_user_and_verify_its_status_code(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test updated user",
+        "description": "",
+        "id": "test-the-update-user;test-updated-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 645659600,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 774312600,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I delete a given user 10 and verify its status code and other details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "10",
+                  "offset": 22
+                }
+              ],
+              "location": "DeleteUser.I_delete_a_given_user_and_verify_its_status_code(int)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Test the Update User",
+    "description": "",
+    "id": "test-the-update-user",
+    "keyword": "Feature",
+    "uri": "deleteUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test User Details",
+        "description": "",
+        "id": "test-the-single-user-details;test-user-details;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 866142100,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 635625500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I check if Michael is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Michael",
+                  "offset": 11
+                }
+              ],
+              "location": "DetailsSingleUser.I_check_if_name_is_present(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3674501,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get the details of the Michael user",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Michael",
+                  "offset": 25
+                }
+              ],
+              "location": "DetailsSingleUser.I_get_the_details_of_the_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test User Details",
+        "description": "",
+        "id": "test-the-single-user-details;test-user-details;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 592424501,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 689197100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I check if Tobias is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tobias",
+                  "offset": 11
+                }
+              ],
+              "location": "DetailsSingleUser.I_check_if_name_is_present(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 1777300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get the details of the Tobias user",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Tobias",
+                  "offset": 25
+                }
+              ],
+              "location": "DetailsSingleUser.I_get_the_details_of_the_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 12,
+        "name": "Test User Details",
+        "description": "",
+        "id": "test-the-single-user-details;test-user-details;;4",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 636397401,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 604666300,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "I check if Eve is present",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Eve",
+                  "offset": 11
+                }
+              ],
+              "location": "DetailsSingleUser.I_check_if_name_is_present(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 680300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I get the details of the Eve user",
+            "match": {
+              "arguments": [
+                {
+                  "val": "Eve",
+                  "offset": 25
+                }
+              ],
+              "location": "DetailsSingleUser.I_get_the_details_of_the_name(String)"
+            },
+            "matchedColumns": [
+              0
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Test the Single User Details",
+    "description": "",
+    "id": "test-the-single-user-details",
+    "keyword": "Feature",
+    "uri": "detailsSingleUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "Test the number of users",
+        "description": "",
+        "id": "test-the-user-count;test-the-number-of-users",
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 646935301,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 332700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I count the number of users",
+            "match": {
+              "location": "ListUser.I_count_the_number_of_users()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 64700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "I verify the number of users",
+            "match": {
+              "location": "ListUser.I_verify_the_number_of_users()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "Test the User count",
+    "description": "",
+    "id": "test-the-user-count",
+    "keyword": "Feature",
+    "uri": "listUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 10,
+        "name": "Test updated user",
+        "description": "",
+        "id": "test-the-update-user;test-updated-user;;2",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 625636500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 703736000,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I update a given user 2 with Shruti and Engineer and verify its status code and other details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "2",
+                  "offset": 22
+                },
+                {
+                  "val": "Shruti",
+                  "offset": 29
+                },
+                {
+                  "val": "Engineer",
+                  "offset": 40
+                }
+              ],
+              "location": "UpdateUser.I_update_a_given_user_and_verify_its_status_code(int,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      },
+      {
+        "line": 11,
+        "name": "Test updated user",
+        "description": "",
+        "id": "test-the-update-user;test-updated-user;;3",
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 617581799,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "the api is up and running",
+            "match": {
+              "location": "ListUser.the_api_is_up_and_running()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 729814100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "I update a given user 11 with Shreya and Student and verify its status code and other details",
+            "match": {
+              "arguments": [
+                {
+                  "val": "11",
+                  "offset": 22
+                },
+                {
+                  "val": "Shreya",
+                  "offset": 30
+                },
+                {
+                  "val": "Student",
+                  "offset": 41
+                }
+              ],
+              "location": "UpdateUser.I_update_a_given_user_and_verify_its_status_code(int,String,String)"
+            },
+            "matchedColumns": [
+              0,
+              1,
+              2
+            ],
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "line": 1,
+            "name": "@Test"
+          }
+        ]
+      }
+    ],
+    "name": "Test the Update User",
+    "description": "",
+    "id": "test-the-update-user",
+    "keyword": "Feature",
+    "uri": "updateUser.feature",
+    "tags": [
+      {
+        "line": 1,
+        "name": "@Test"
+      }
+    ]
+  }
+]
